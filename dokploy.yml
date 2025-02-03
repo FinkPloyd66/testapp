@@ -1,0 +1,6 @@
+version: '1'
+applications:
+  - name: dokploy-example
+    path: /app
+    volumes:
+      - /app/data:/etc/dokploy/applications/dokploy-example/data
